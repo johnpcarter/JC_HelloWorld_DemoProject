@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitBranch: main
+- name: OpenWeatherClient
+  gitServerName: JC_TEST
+  gitUrl: https://github.com/rahuldemocenter
+  gitUsername: johnpcarter
+  gitBranch: main
