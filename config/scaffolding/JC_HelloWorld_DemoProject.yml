@@ -8,7 +8,35 @@ packages:
   gitUsername: johnpcarter
   gitBranch: main
 - name: OpenWeatherClient
+  version: "1.0"
   gitServerName: JC_TEST
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: johnpcarter
   gitBranch: main
+services:
+- serviceName: project.jc_helloworld_demo.integrations:helloWorld
+  packages:
+  - name: JC_HelloWorld_DemoProject
+    version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1973
+- serviceName: OpenWeatherClient.REST.openweatherclient_.services:CurrentWeatherData
+  packages:
+  - name: OpenWeatherClient
+    version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1973
+- serviceName: pub.json:jsonStreamToDocument
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1973
+- serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1973
