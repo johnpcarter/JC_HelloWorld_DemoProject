@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/rahuldemocenter
   gitUsername: johnpcarter
   gitBranch: main
+- name: JcPublicTools
+  gitServerName: JC_TEST
+  gitUrl: https://github.com/johnpcarter
+  gitUsername: johnpcarter
+  gitTag: v2.0.0
 services:
 - serviceName: project.jc_helloworld_demo.integrations:helloWorld
   packages:
