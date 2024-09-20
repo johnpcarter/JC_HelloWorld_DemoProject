@@ -10,17 +10,18 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="OpenWeatherClient">1.0</value>
     <value name="JcPublicTools">1.0</value>
+    <value name="echows">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">6</value>
+  <value name="build">7</value>
   <null name="description"/>
   <value name="created_date">05-09-2024 12:01:11 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-09-17T07:09:35.505288922Z</value>
+  <value name="lastUpdated">2024-09-20T11:45:33.552856284Z</value>
   <value name="wmProjectId">fl6a85666499e0fb239a38b0</value>
   <value name="creator">John User</value>
 </Values>

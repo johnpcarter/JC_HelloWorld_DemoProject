@@ -18,6 +18,11 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitTag: v2.0.0
+- name: echows
+  gitServerName: JC_TEST
+  gitUrl: https://github.com/MarcFriedhoff
+  gitUsername: johnpcarter
+  gitBranch: master
 services:
 - serviceName: project.jc_helloworld_demo.integrations:helloWorld
   packages:
