@@ -25,13 +25,8 @@ packages:
   gitUrl: https://github.com/MarcFriedhoff
   gitUsername: johnpcarter
   gitBranch: master
-security:
-- name: echows
-  allowedServices:
-  - echows.admin:getAcls
-  javaServiceSetting: RESTRICTED
 services:
-- serviceName: project.jc_helloworld_demo.integrations:helloWorld
+- serviceName: project.jc_helloworld_demo.integrations:testSoapService
   packages:
   - name: JC_HelloWorld_DemoProject
     version: "1.0"
@@ -41,23 +36,11 @@ services:
     version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
-- serviceName: pub.flow:debugLog
+- serviceName: echows.echows_.connectors:EchoPortType_Echo
   packages:
-  - name: WmPublic
-    version: 11.1.0.0.2000
-- serviceName: OpenWeatherClient.REST.openweatherclient_.services:CurrentWeatherData
-  packages:
-  - name: OpenWeatherClient
+  - name: echows
     version: "1.0"
-- serviceName: pub.client:http
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2000
-- serviceName: pub.json:jsonStreamToDocument
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2000
-- serviceName: pub.json:documentToJSONString
+- serviceName: pub.client:soapClient
   packages:
   - name: WmPublic
     version: 11.1.0.0.2000
