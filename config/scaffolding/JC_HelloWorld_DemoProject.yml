@@ -30,6 +30,11 @@ packages:
   gitUrl: https://github.com/tlundstr
   gitUsername: johnpcarter
   gitBranch: master
+- name: JcTestSoapService
+  gitServerName: JC_TEST
+  gitUrl: https://github.com/johnpcarter
+  gitUsername: johnpcarter
+  gitBranch: main
 services:
 - serviceName: project.jc_helloworld_demo.integrations:testSoapService
   packages:
