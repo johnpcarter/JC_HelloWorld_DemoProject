@@ -15,6 +15,23 @@
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
       <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">countryCode</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -46,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">johnuser</value>
-    <value name="lastModifiedDate">1726833020761</value>
+    <value name="lastModifiedDate">1727107459599</value>
     <value name="displayName">testSoapService</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -54,14 +71,14 @@
         <null name="name"/>
         <value name="itemType">PACKAGES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">echows</value>
-          <value name="groupName">echows;1.0</value>
+          <value name="groupDisplayName">JcTestSoapService</value>
+          <value name="groupName">JcTestSoapService;1.0</value>
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">echows.echows_.connectors:EchoPortType_Echo</value>
-          <value name="serviceName">echows.echows_.connectors:EchoPortType_Echo</value>
-          <value name="displayName">EchoPortType_Echo</value>
+          <value name="description">jc.iptocountry.descriptor_.connectors:CountryInfoServiceSoapType_FullCountryInfo</value>
+          <value name="serviceName">jc.iptocountry.descriptor_.connectors:CountryInfoServiceSoapType_FullCountryInfo</value>
+          <value name="displayName">CountryInfoServiceSoapType_FullCountryInfo</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
