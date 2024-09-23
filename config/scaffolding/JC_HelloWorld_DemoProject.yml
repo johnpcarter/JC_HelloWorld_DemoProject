@@ -26,11 +26,13 @@ packages:
   gitUsername: johnpcarter
   gitBranch: master
 - name: OrderEntry
+  version: "1.0"
   gitServerName: JC_TEST
   gitUrl: https://github.com/tlundstr
   gitUsername: johnpcarter
   gitBranch: master
 - name: JcTestSoapService
+  version: "1.0"
   gitServerName: JC_TEST
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
@@ -40,17 +42,21 @@ services:
   packages:
   - name: JC_HelloWorld_DemoProject
     version: "1.0"
+  - name: OrderEntry
+    version: "1.0"
+  - name: JcTestSoapService
+    version: "1.0"
   - name: JcPublicTools
     version: "1.0"
   - name: echows
     version: "1.0"
   - name: OpenWeatherClient
     version: "1.0"
-- serviceName: echows.echows_.connectors:EchoPortType_Echo
+- serviceName: jc.iptocountry.descriptor_.connectors:CountryInfoServiceSoapType_FullCountryInfo
   packages:
-  - name: echows
+  - name: JcTestSoapService
     version: "1.0"
 - serviceName: pub.client:soapClient
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2000
+    version: 11.1.0.0.2001
