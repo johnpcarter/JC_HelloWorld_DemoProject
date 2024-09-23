@@ -11,17 +11,18 @@
     <value name="OpenWeatherClient">1.0</value>
     <value name="JcPublicTools">1.0</value>
     <value name="echows">1.0</value>
+    <value name="OrderEntry">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">12</value>
+  <value name="build">13</value>
   <null name="description"/>
   <value name="created_date">05-09-2024 12:01:11 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-09-20T11:50:28.283607654Z</value>
+  <value name="lastUpdated">2024-09-23T08:21:57.998217663Z</value>
   <value name="wmProjectId">fl6a85666499e0fb239a38b0</value>
   <value name="creator">John User</value>
 </Values>

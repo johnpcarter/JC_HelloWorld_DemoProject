@@ -25,6 +25,11 @@ packages:
   gitUrl: https://github.com/MarcFriedhoff
   gitUsername: johnpcarter
   gitBranch: master
+- name: OrderEntry
+  gitServerName: JC_TEST
+  gitUrl: https://github.com/tlundstr
+  gitUsername: johnpcarter
+  gitBranch: master
 services:
 - serviceName: project.jc_helloworld_demo.integrations:testSoapService
   packages:
